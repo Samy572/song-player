@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 *.mp3
-src/song*
+
 node_modules
 .DS_Store
 dist

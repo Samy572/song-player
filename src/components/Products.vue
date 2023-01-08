@@ -10,7 +10,7 @@
         ></i>
       </button>
       <h2>{{ product.name }}</h2>
-      <p>{{ product.title }}</p>
+      <p class="title">{{ product.title }}</p>
     </div>
   </div>
 </template>
@@ -90,5 +90,9 @@ h1 {
 		transform: scale(1.3);
 	}
   }
+}
+
+.title{
+  margin-bottom: 50px;
 }
 </style>
